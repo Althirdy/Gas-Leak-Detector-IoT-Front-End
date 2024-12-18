@@ -8,12 +8,12 @@ import { getDatabase, ref, onValue } from "firebase/database";
 // Your web app's Firebase configuration
 
 const messagingSenderId = import.meta.env.VITE_messagingSenderId;
-const appId = import.meta.env.VITE_appId
-const storageBucket = import.meta.env.VITE_storageBucket
-const projectId = import.meta.env.VITE_projectID
-const databaseURL = import.meta.env.VITE_databaseURL
-const authDomain = import.meta.env.VITE_authDomain
-const apiKey = import.meta.env.VITE_apiKey
+const appId = "AIzaSyDnjrBAIwrXJbbQbaQWCWsZ4vCL9O0WPxo"
+const storageBucket = "gas-leak-detector---wst.firebasestorage.app"
+const projectId = "gas-leak-detector---wst"
+const databaseURL = "https://gas-leak-detector---wst-default-rtdb.asia-southeast1.firebasedatabase.app"
+const authDomain = 'gas-leak-detector---wst.firebaseapp.com'
+const apiKey = 't68A10OSNSZtWrxrBpgFZHn6/hg1aeGmsYwdaYe3HC0gXcU31YV1B7TtnjHzdtQLAyeXKWsaKoeQauDr7svnlw=='
 
 const firebaseConfig = {
   apiKey: apiKey,
