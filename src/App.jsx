@@ -20,9 +20,8 @@ function App() {
         <GoogleOAuthProvider clientId="570104092890-ips03h8iu2cgluo3naa11u9eus5pu42u.apps.googleusercontent.com">
           <BrowserRouter>
             <Routes>
-              <Route path="/" element={<Navigate to="/login" />} />
               <Route element={<Guest />}>
-                <Route path="/login" element={<Login />} />
+                <Route path="/" element={<Login />} />
               </Route>
               <Route element={<Protected />}>
                 <Route path="/dashboard" element={<Dashboard />} />
